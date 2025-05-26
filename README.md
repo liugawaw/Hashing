@@ -657,7 +657,17 @@ Retrieval(`HCCH`)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnum
 
 ## 😍RAG(Non-Hashing)  
 ### 😄Single-Modal
+***2020 NIPS*** Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks[[Paper]](https://proceedings.neurips.cc/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf)[[code]](https://github.com/huggingface/transformers/blob/main/examples/rag)
 ***2020 ICML*** REALM: retrieval-augmented language model pre-training[[Paper]](https://dl.acm.org/doi/abs/10.5555/3524938.3525306)
+***2021 AAAI*** Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training[[Paper]](https://arxiv.org/abs/2012.10309)
+***2022 ICML*** Retrieval-Augmented Reinforcement Learning[[Paper]](https://proceedings.mlr.press/v162/goyal22a.html)
+***2024 AAAI*** Benchmarking large language models in retrieval-augmented generation[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29728)[[code]](https://github.com/chen700564/RGB)
+***2024 ICLR*** SELF-RAG: Learning to Retrieve, Generate and Critique through Self-reflection[[Paper]](https://openreview.net/forum?id=hSyW5go0v8)[[Code]](https://github.com/AkariAsai/self-rag)  
 
 
 ### 😄Multi-Modal
+* #### Image Caption
+* #### Image Generation
+* #### Knowledge-Intensive Tasks
+
+
