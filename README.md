@@ -656,4 +656,8 @@ Retrieval(`HCCH`)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnum
 ***2024 CVPR*** PromptKD: Unsupervised Prompt Distillation for Vision-Language Models(`PromptKD`)[[Paper]](https://arxiv.org/pdf/2403.02781)[[Code]](https://github.com/zhengli97/PromptKD)  
 
 ## 😍RAG(Non-Hashing)  
-### 😄Stay tuned...
+### 😄Single-Modal
+***2020 ICML*** REALM: retrieval-augmented language model pre-training[[Paper]](https://dl.acm.org/doi/abs/10.5555/3524938.3525306)
+
+
+### 😄Multi-Modal
