@@ -627,7 +627,8 @@ Retrieval(`HCCH`)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnum
    
 
 ## 😍NAS(Non-Hashing)  
-### 😄Architecture Encoding  
+### 😄Architecture Encoding
+
 ***2019 NIPS*** D-VAE: A Variational Autoencoder for Directed Acyclic Graphs(`D-VAE`)[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2019/file/e205ee2a5de471a70c1fd1b46033a75f-Paper.pdf)[[Code]](https://github.com/muhanzhang/D-VAE)  
 ***2019 NIPS*** NAT: Neural Architecture Transformer for Accurate and Compact Architectures(`NAT`)[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2019/file/beed13602b9b0e6ecb5b568ff5058f07-Paper.pdf)  
 ***2020 NIPS*** Bridging the Gap between Sample-based and One-shot Neural Architecture Search with BONAS[[Paper]](https://proceedings.neurips.cc/paper/2020/file/13d4635deccc230c944e4ff6e03404b5-Paper.pdf)[[Code]](https://github.com/pipilurj/BONAS)  
@@ -662,7 +663,45 @@ Retrieval(`HCCH`)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnum
 ***2024 CVPR*** PromptKD: Unsupervised Prompt Distillation for Vision-Language Models(`PromptKD`)[[Paper]](https://arxiv.org/pdf/2403.02781)[[Code]](https://github.com/zhengli97/PromptKD)  
 
 ## 😍RAG(Non-Hashing)  
-### 😄Stay tuned...
+### 😄Single-Modal
+***2020 NIPS*** Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks[[Paper]](https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html)[[Code]](https://huggingface.co/facebook/rag-token-nq)
+***2020 ICML*** REALM: retrieval-augmented language model pre-training[[Paper]](https://dl.acm.org/doi/abs/10.5555/3524938.3525306)
+***2021 AAAI*** Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/17627/17434)[[Code]](https://github.com/awslabs/gap-text2sql)  
+***2021 EACL*** Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering[[Paper]](https://aclanthology.org/2021.eacl-main.74/)
+***2022 ICML*** Retrieval-Augmented Reinforcement Learning[[Paper]](https://proceedings.mlr.press/v162/goyal22a.html) 
+***2023 NIPS*** Lift Yourself Up: Retrieval-augmented Text Generation with Self-Memory[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/887262aeb3eafb01ef0fd0e3a87a8831-Paper-Conference.pdf)[[Code]](https://github.com/Hannibal046/SelfMemory)
+***2023 EMNLP*** Active Retrieval Augmented Generation[[Paper]](https://aclanthology.org/2023.emnlp-main.495/)[[Code]](https://github.com/jzbjyb/FLARE)
+***2024 AAAI*** Benchmarking Large Language Models in Retrieval-Augmented Generation[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29728)[[Code]](https://github.com/chen700564/RGB)  
+***2024 ICLR*** Self-RAG: Learning to Retrieve, Generate,and Critique through Self-Reflection[[Paper]](https://iclr.cc/virtual/2024/oral/19736)[[Code]](https://selfrag.github.io/)
+
+### 😄Multi-Modal
+* #### Image Captioning
+***2022 CBMI*** Retrieval-Augmented Transformer for Image Captioning[[Paper]](https://dl.acm.org/doi/fullHtml/10.1145/3549555.3549585)
+***2022 EMNLP*** Retrieval Augmented Visual Question Answering with Outside Knowledge[[Paper]](https://aclanthology.org/2022.emnlp-main.772/)[[Code]](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)
+***2022 EMNLP*** MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text[[Paper]](https://aclanthology.org/2022.emnlp-main.375/) 
+***2023 EACL*** Retrieval-augmented Image Captioning[[Paper]](https://aclanthology.org/2023.eacl-main.266/)
+***2023 CVPR*** SMALLCAP: Lightweight Image Captioning Prompted with Retrieval Augmentation[[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ramos_SmallCap_Lightweight_Image_Captioning_Prompted_With_Retrieval_Augmentation_CVPR_2023_paper.pdf)[[Code]](https://github.com/RitaRamo/smallcap)  
+***2023 CVPR*** REVEAL: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory[[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_REVEAL_Retrieval-Augmented_Visual-Language_Pre-Training_With_Multi-Source_Multimodal_Knowledge_Memory_CVPR_2023_paper.pdf)[[code]](https://github.com/google-research/scenic/tree/main/scenic/projects/knowledge_visual_language)
+***2023 MM*** RAMM: Retrieval-augmented Biomedical Visual Question Answering with Multi-modal Pre-training[[Paper]](https://dl.acm.org/doi/10.1145/3581783.3611830)[[Code]](https://github.com/GanjinZero/RAMM)
+***2023 NIPS*** Fine-grained Late-interaction Multi-modal Retrieval for Retrieval Augmented Visual Question Answering[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/47393e8594c82ce8fd83adc672cf9872-Paper-Conference.pdf)[[Code]](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)  
+***2023 ICML*** Retrieval-Augmented Multimodal Language Modeling[[Paper]](https://proceedings.mlr.press/v202/yasunaga23a.html) 
+***2023 CVPR*** Learning Customized Visual Models with Retrieval-Augmented Knowledge[[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Learning_Customized_Visual_Models_With_Retrieval-Augmented_Knowledge_CVPR_2023_paper.pdf)[[Code]](https://github.com/microsoft/react)
+***2024 CVPR*** MeaCap: Memory-Augmented Zero-shot Image Captioning[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zeng_MeaCap_Memory-Augmented_Zero-shot_Image_Captioning_CVPR_2024_paper.pdf)[[Code]](https://github.com/joeyz0z/MeaCap)
+***2024 CVPR*** EVCAP: Retrieval-Augmented Image Captioning with External Visual–Name Memory for Open-World Comprehension[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_EVCap_Retrieval-Augmented_Image_Captioning_with_External_Visual-Name_Memory_for_Open-World_CVPR_2024_paper.pdf)[[Code]](https://github.com/Jiaxuan-Li/EVCap)
+***2024 CVPR*** Wiki-LLaVA:Hierarchical Retrieval-Augmented Generation for Multimodal LLMs[[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/MMFM/html/Caffagni_Wiki-LLaVA_Hierarchical_Retrieval-Augmented_Generation_for_Multimodal_LLMs_CVPRW_2024_paper.html)
+
+* #### RAG+Diffusion
+***2023 NIPS*** Retrieval-Augmented Diffusion Models[[Paper]](https://papers.nips.cc/paper_files/paper/2022/hash/62868cc2fc1eb5cdf321d05b4b88510c-Abstract-Conference.html)[[Code]](https://github.com/CompVis/retrieval-augmented-diffusion-models)
+***2023 ICLR*** KNN-DIFFUSION: IMAGE GENERATION VIA LARGE-SCALE RETRIEVAL[[Paper]](https://iclr.cc/virtual/2023/poster/12206)[[Code]](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)
+***2023 ICLR*** Re-Imagen: Retrieval-Augmented Text-to-Image Generator[[Paper]](https://openreview.net/forum?id=XSEBx0iSjFQ) 
+***2023 ICCV*** ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model[[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_ReMoDiffuse_Retrieval-Augmented_Motion_Diffusion_Model_ICCV_2023_paper.pdf)[[Code]](https://mingyuan-zhang.github.io/projects/ReMoDiffuse.html)
+***2024 ICML*** Mastering Text-to-Image Diffusion:Recaptioning, Planning,and Generating with Multimodal LLMs[[Paper]](https://openreview.net/forum?id=DgLFkAPwuZ)[[Code]](https://github.com/YangLing0818/RPG-DiffusionMaster)  
+
+* #### Knowledge-Intensive Tasks
+***2024 ACL-findings*** MORE: Multi-mOdal REtrieval Augmented Generative Commonsense Reasoning[[Paper]](https://aclanthology.org/2024.findings-acl.69/)[[Code]](https://github.com/VickiCui/MORE)
+***2025 ICLR*** VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents[[Paper]](https://openreview.net/forum?id=zG459X3Xge)[[Code]](https://github.com/openbmb/visrag)  
+
+
 
 ## 🎁Contact Information  
 Email: cy8661@ouc.edu.cn       
